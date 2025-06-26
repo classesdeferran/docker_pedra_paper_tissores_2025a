@@ -1,0 +1,27 @@
+{
+  "name": "pedra_paper_tissores",
+  "version": "1.0.0",
+  "description": "Versión simple del Piedra-Papel-Tijeras ",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/classesdeferran/docker_pedra_paper_tissores_2025a.git"
+  },
+  "keywords": [
+    "Node",
+    "Express",
+    "Docker"
+  ],
+  "author": "Ferran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/classesdeferran/docker_pedra_paper_tissores_2025a/issues"
+  },
+  "homepage": "https://github.com/classesdeferran/docker_pedra_paper_tissores_2025a#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}

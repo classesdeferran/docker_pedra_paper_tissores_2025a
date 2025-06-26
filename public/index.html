@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piedra Papel Tijeras</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <main>
+
+        <!-- <h1>Piedra Papel Tijeras</h1> -->
+        <div id="nombreJugador">
+            <p>Introduce tu nombre</p>
+        </div>
+
+        <form action="">
+
+            <div id="opciones">
+                <div>
+                    <input type="radio" name="juego" id="piedra" value="1" checked>
+                    <label for="piedra">✊</label>
+                </div>
+                <div>
+                    <input type="radio" name="juego" id="papel" value="2">
+                    <label for="papel">✋</label>
+                </div>
+                <div>
+                    <input type="radio" name="juego" id="tijeras" value="3">
+                    <label for="tijeras">🤞</label>
+                </div>
+            </div>
+
+            <p id#respuestaPC></p>
+
+            <br>
+            <input type="button" value="¡ JUGAR !" onclick="jugar()">
+        </form>
+        
+        <div id="respuesta"></div>
+        <div id="imagen"></div>
+        <audio id="audioVictoria">
+            <source src="assets/victoria.mp3" >
+        </audio>
+        <audio id="audioEmpate">
+            <source src="assets/empate.mp3" >
+        </audio>
+        <audio id="audioDerrota">
+            <source src="assets/derrota.mp3" >
+        </audio>
+
+    </main>
+
+
+    <script src="js/juego.js"></script>
+</body>
+
+</html>

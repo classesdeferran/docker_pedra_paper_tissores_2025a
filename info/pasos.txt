@@ -1,0 +1,9 @@
+1 - Convertir el sitio web en una aplicación de node
+
+2 - Subir los ficheros necesarios a Github
+
+3 - Crear una imagen del servidor con Docker y probarla en un contenedor
+
+4 - Subir la imagen a Dockerhub
+
+5 - Desplegar el código en render.com
